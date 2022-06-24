@@ -1,6 +1,8 @@
 /*
 Author:Owashim Chowdhury
 */
+//java program to Multiply two numbers
+
 class Mul //creating a class Mul
 
 {
