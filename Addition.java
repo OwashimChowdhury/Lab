@@ -1,6 +1,8 @@
 /*
 Author:Owashim Chowdhury
 */
+//java program to add two numbers
+
 class Addition //creating a class Addition
 
 {
