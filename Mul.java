@@ -1,7 +1,7 @@
 /*
 Author:Owashim Chowdhury
 */
-class Mul
+class Mul //creating a class Mul
 
 {
 public static void main(String[]args){
