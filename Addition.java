@@ -1,7 +1,7 @@
 /*
 Author:Owashim Chowdhury
 */
-class Addition
+class Addition //creating a class Addition
 
 {
 public static void main(String[]args){
