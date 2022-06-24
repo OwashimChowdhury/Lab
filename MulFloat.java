@@ -1,7 +1,9 @@
 /*
 Author:Owashim Chowdhury
 */
-class MulFloat
+//java program to multiply two Floating Number
+
+class MulFloat //creating a class MulFloat
 
 {
 public static void main(String[]args){
