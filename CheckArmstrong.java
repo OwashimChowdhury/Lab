@@ -1,3 +1,7 @@
+/*
+Author:Owashim Chowdhury
+*/
+//java program to check armstrong no. or not
 package Owas;
 import java.util.Scanner;
 public class CheckArmstrong {
@@ -22,15 +26,15 @@ public class CheckArmstrong {
 		    Sum = Sum + Math.pow(Reminder, Times);
 		    Temp = Temp /10;
 		}
-		System.out.format("\n Sum of entered number is = %.2f", Sum);
+		System.out.format("\n Sum of entered number is = %.2f", Sum); //printing sum
 		
 		if (Sum == Number) {
-			System.out.format("\n% d is a Armstrong", Number);
+			System.out.format("\n% d is a Armstrong", Number); //printing
 		}
 		else {
-			System.out.format("\n% d is NOT", Number);
+			System.out.format("\n% d is NOT", Number);	//printing
 		}
 
-	}
+	}	//end of main method
 
-}
+}		//end of class
