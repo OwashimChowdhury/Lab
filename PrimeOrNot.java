@@ -1,6 +1,10 @@
+/*
+Author:Owashim Chowdhury
+*/
+//java program to check a number is prime or not
 package Owas;
 
-public class PrimeOrNot {
+public class PrimeOrNot {		//class
 
 	public static void main(String[] args) {
 		int num = 29;
@@ -14,9 +18,9 @@ public class PrimeOrNot {
 	    }
 
 	    if (!flag)
-	      System.out.println(num + " is a prime number.");
+	      System.out.println(num + " is a prime number."); //print
 	    else
-	      System.out.println(num + " is not a prime number.");
+	      System.out.println(num + " is not a prime number.");  //print
 	 
 
 	}		// end of main method
