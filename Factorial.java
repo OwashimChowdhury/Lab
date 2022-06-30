@@ -1,4 +1,7 @@
-
+/*
+Author:Owashim Chowdhury
+*/
+//java program of factorial 
 package Owas;
 import java.util.Scanner; 
 public class Factorial { 
