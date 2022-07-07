@@ -1,6 +1,12 @@
+/*
+@author:Owashim chowdhury
+Q.3… Class A serves as a base class for the derived class B, 
+which in turn serves as a base class for the derived class C.
+(Which type Of Inheritance explain with an example)
+*/
 package Lab;
 
-class A{
+class A{ //parent class
 	void run() {
 		System.out.println("owashim");
 	}
