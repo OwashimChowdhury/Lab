@@ -1,0 +1,28 @@
+package Lab;
+
+class A{
+	void run() {
+		System.out.println("owashim");
+	}
+}
+	class B extends A{	//child class of A
+		void features() {
+			System.out.println("IS A good");	
+		}
+	}
+	class C extends B{	//child class of B
+		void display() {
+			System.out.println("BOY");
+		}
+	}
+
+public class MultiLevelinheritance {
+
+	public static void main(String[] args) {
+		C sc1=new C();	//object of child class C 
+		sc1.run();	//calling parentClass Method 
+		sc1.features();	//calling Child class method
+		sc1.display();	//calling child class method
+		
+	}
+}
