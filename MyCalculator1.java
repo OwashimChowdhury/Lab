@@ -29,6 +29,7 @@ public class MyCalculator1 {
 	System.out.println("enter a number:");
 	int n=sc.nextInt();
 	sc.close();
+	System.out.println("I implemented: AdvancedArithmetic:");
 	System.out.println("sum of the divisor is :"+m.divisor_sum(n));
 
 	}
