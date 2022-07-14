@@ -32,6 +32,7 @@ public class RectangleTest {
 		re.run();
 		re.setLength1(10);  //setting the value
 		re.setBreadth(5);  //setting the value
+		System.out.print("New " );
 		re.run();
 		
 	}
