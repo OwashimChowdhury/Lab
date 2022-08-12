@@ -17,7 +17,7 @@ public class LinkedList1stEg {
 		//adding element to first position
 		arr.addFirst("First");
 		System.out.println("after adding:");
-		System.out.println(arr);//print array list
+		System.out.println(arr);//print linked list
 
 	}
 
