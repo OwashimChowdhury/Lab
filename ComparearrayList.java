@@ -25,6 +25,6 @@ public class ComparearrayList {
 		 ArrayList<String> arr2 = new ArrayList<String>();
          for (String e : arr)//for each loop
             arr2.add(arr1.contains(e) ? "Yes" : "No");//checking all the elements matched or not
-         System.out.println(arr2);//printing "yes" or "no" 
+         System.out.println(arr2);//printing array list
 	}
 }
