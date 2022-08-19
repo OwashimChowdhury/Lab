@@ -1,5 +1,7 @@
 package Lab;
-
+/*
+ * @author owashim chowdhury
+ */
 import java.util.HashSet;
 
 public class HashsetProblem2 {
