@@ -36,7 +36,7 @@ select last_name,salary,salary+comm_pct+100 as annual_commppensation from employ
 #9. Display the details of those employees who get commission.
 select*from employee where comm_pct !='null';
 #10. Display the details of those employees who do not get commission.
-select*from employee where comm_pct<0;
+select*from employee where comm_pct='null';
 #11. Display the Employee_id, Department_id and Salary all employees whose salary is greater than 5000.
 select Employee_Id,DEPARTMENT_ID,SALARY FROM EMPLOYEE WHERE SALARY>5000;
 #12. Display the Last_Name and Salary of all employees whose salary is between 4000 AND7000
