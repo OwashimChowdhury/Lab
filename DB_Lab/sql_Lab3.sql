@@ -26,7 +26,7 @@ SELECT EMPLOYEE_ID,LAST_NAME,JOB_ID FROM EMPLOYEE ;
 #4. Display the details of all employees of department 60.
 select*from employee where DEPARTMENT_ID=60;
 #5. Display the employee details of the employee who’s last_name is King.
-select*from employee where LAST_NAME=' King';
+select*from employee where LAST_NAME='King';
 #6. Display unique job_id from EMPLOYEE table. Give alias name to the column as JOB_TITLE.
 select JOB_ID as job_title from employee group by JOB_ID;
 #Display last_name, salary and salary increase of Rs300. Give the new column name as ‘Increased Salary’.
