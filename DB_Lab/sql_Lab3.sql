@@ -32,11 +32,11 @@ select JOB_ID as job_title from employee group by JOB_ID;
 #Display last_name, salary and salary increase of Rs300. Give the new column name as ‘Increased Salary’.
 select last_name,salary,salary+300 as increased_salary from employee;
 #8. Display last_name, salary and annual compensation of all employees, plus a onetime bonus of Rs 100. Give an alias name to the column displaying annual compensation.
-select last_name,salary,(salary*comm_pct)+100 as annual_commppensation from employee;
+select last_name,salary,salary+comm_pct+100 as annual_commppensation from employee;
 #9. Display the details of those employees who get commission.
 select*from employee where comm_pct !='null';
 #10. Display the details of those employees who do not get commission.
-select*from employee where comm_pct>0;
+select*from employee where comm_pct<0;
 #11. Display the Employee_id, Department_id and Salary all employees whose salary is greater than 5000.
 select Employee_Id,DEPARTMENT_ID,SALARY FROM EMPLOYEE WHERE SALARY>5000;
 #12. Display the Last_Name and Salary of all employees whose salary is between 4000 AND7000
