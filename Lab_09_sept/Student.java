@@ -16,17 +16,20 @@ public class Student {
 		}
 		else if (studentId!=0 && studentGrade=='B' && isScholarshipEligible==true) {
 			Double fees = (monthlyFees -monthlyFees *8/100);//logic
-			System.out.println("STUDENT GRADE:"+studentGrade);			System.out.println("MONTHLY FEES:"+monthlyFees);
+			System.out.println("STUDENT GRADE:"+studentGrade);			
+			System.out.println("MONTHLY FEES:"+monthlyFees);
 			System.out.println("8% of fees is exempted, the calculated fees is : "+fees);
 		}
 		else if (studentId!=0 && studentGrade=='C' && isScholarshipEligible==true) {
 			Double fees = (monthlyFees -monthlyFees *6/100);//logic
-			System.out.println("STUDENT GRADE:"+studentGrade);			System.out.println("MONTHLY FEES:"+monthlyFees);
+			System.out.println("STUDENT GRADE:"+studentGrade);			
+			System.out.println("MONTHLY FEES:"+monthlyFees);
 			System.out.println("6% of fees is exempted, the calculated fees is : "+fees);
 		}
 		else if (studentId!=0 && studentGrade=='D' && isScholarshipEligible==true) {
 			Double fees = (monthlyFees -monthlyFees *4/100);//logic
-			System.out.println("STUDENT GRADE:"+studentGrade);			System.out.println("MONTHLY FEES:"+monthlyFees);
+			System.out.println("STUDENT GRADE:"+studentGrade);			
+			System.out.println("MONTHLY FEES:"+monthlyFees);
 			System.out.println("4% of fees is exempted, the calculated fees is : "+fees);
 		}
 		else {
