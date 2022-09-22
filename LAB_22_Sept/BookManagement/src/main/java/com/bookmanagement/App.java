@@ -12,6 +12,7 @@ public class App
     	//object of bookdaoimpl
     	  BookDaoimpl d = new BookDaoimpl();
          char c;
+        //do while loop
          do{
       	   Scanner sc = new Scanner(System.in);
       	   System.out.println("PRESS 1 for add Book \nPRESS 2 for display Book\nPRESS 3 for Exit");
@@ -33,5 +34,5 @@ public class App
       	   c = sc.next().charAt(0);
          }while(c == 'y' || c == 'Y');
          System.out.println("Thank You");
-    }
-}
+    }//end of main
+}//end of class
