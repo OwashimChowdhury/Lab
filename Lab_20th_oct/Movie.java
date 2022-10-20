@@ -1,4 +1,7 @@
 package lab;
+/*
+@author: owashim chowdhury
+*/
 import java.util.Scanner;
 
 public class Movie {
