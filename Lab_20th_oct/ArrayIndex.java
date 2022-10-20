@@ -1,4 +1,7 @@
 package lab;
+/*
+@author: owashim chowdhury
+*/
 
 public class ArrayIndex {
 	
