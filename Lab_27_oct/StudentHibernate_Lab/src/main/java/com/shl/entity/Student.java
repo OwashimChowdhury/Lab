@@ -11,11 +11,12 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
+//entity class
 public class Student {
-
+	//attributes
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int sId;
 	@Column(length = 30,nullable = false)
 	private String sName;
-}
+}//end of class
